@@ -18,7 +18,7 @@ export default function Home() {
             ></SparklesText>
           </h1>
 
-          <p className="text-base sm:text-3xl font-medium motion-preset-typewriter-[17] motion-duration-[7s] motion-ease-in-out text-violet-500">
+          <p className="text-base sm:text-3xl font-medium motion-preset-typewriter-[17] motion-duration-[10s] motion-ease-in-out text-violet-500">
             Health Researcher
           </p>
 
@@ -27,7 +27,7 @@ export default function Home() {
             I am a dedicated researcher exploring the impact of climate change
             on human health. My work focuses on how climatic variables affect
             health system. Through research and policy analysis, I am to build
-            climate resilient health system
+            climate resilient health system.
           </p>
 
           {/* Button */}
