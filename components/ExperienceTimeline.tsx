@@ -107,66 +107,6 @@ export default function ExperienceTimeline() {
         </div>
       ),
     },
-
-    {
-      title: "Feb 2022 - Jan 2023",
-      content: (
-        <div>
-          <div>
-            <div className="mb-4 space-y-1">
-              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
-                ENVIRONMENT AND PUBLIC HEALTH ORGANIZATION
-              </span>
-            </div>
-            <div className="flex flex-col border-y gap-2 py-4">
-              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
-                <LocateFixed size={15} />
-                <span>BANESHWOR, KATHMANDU, NEPAL</span>
-              </div>
-              <Badge className="space-x-1 w-fit">
-                <span>Role</span>
-                <span>:</span>
-                <span>PAID VOLUNTEER</span>
-              </Badge>
-            </div>
-          </div>
-          <div className="mt-6">
-            <h3 className="text-lg mb-4 font-medium tracking-wide">
-              Responsibilities
-            </h3>
-            <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
-              <li>
-                Conduct awareness campaigns on air pollution and solid waste
-                management in the community and schools of various
-                municipalities within Kathmandu Valley
-              </li>
-              <li>
-                Coordinate and communicate with local CSOs, CBOs, schools, and
-                community groups under the guidance of the project team to
-                promote clean air in the municipality
-              </li>
-              <li>
-                Conduct orientation on air pollution and solid waste management
-                as instructed by the project team
-              </li>
-              <li>
-                Door-to-door visits and information dissemination to households
-                on standard septic tanks
-              </li>
-              <li>
-                Collect information on residents' knowledge and practices of
-                septic tanks, including photographs and participant testimonials
-              </li>
-              <li>
-                Worked as a project coordinator in a cholera project (managing
-                booths, coordinating with UHC, FCHV, and volunteers)
-              </li>
-              <li>Engaged as a project lead in WASH and CCRM projects</li>
-            </ul>
-          </div>
-        </div>
-      ),
-    },
   ];
 
   return <Timeline data={experienceData} />;
